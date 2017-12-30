@@ -1,1 +1,1 @@
-export { Sample } from './src/sample';
+export { ParticlePoints } from './src/particlePoints';
