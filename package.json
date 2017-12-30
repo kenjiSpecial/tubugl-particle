@@ -1,7 +1,7 @@
 {
-  "name": "paracel-prtotype-kit",
+  "name": "tubugl-particle",
   "version": "1.0.0",
-  "description": "prototype tool with parcel",
+  "description": "particle for tubugl",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

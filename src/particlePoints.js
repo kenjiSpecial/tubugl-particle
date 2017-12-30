@@ -1,16 +1,7 @@
 import { Object3D } from './object3D';
 import { Program, ArrayBuffer } from 'tubugl-core';
 import { randomFloat } from 'tubugl-utils/src/mathUtils';
-import {
-	POINTS,
-	BLEND,
-	SRC_ALPHA,
-	ONE,
-	ONE_MINUS_SRC_ALPHA,
-	FLOAT,
-	ZERO,
-	DEPTH_TEST
-} from 'tubugl-constants';
+import { POINTS, BLEND, SRC_ALPHA, ONE_MINUS_SRC_ALPHA, FLOAT, DEPTH_TEST } from 'tubugl-constants';
 
 const vertexShader = `// an attribute will receive data from a buffer
   attribute vec4 position;
